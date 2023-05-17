@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3245485691354288852}
   - component: {fileID: 2213368031332478326}
   - component: {fileID: 2967691269730156131}
+  - component: {fileID: -6361474771604391806}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 3219407207999529574}
   - {fileID: 6653832137767468411}
-  - {fileID: 1580880970940763274}
+  - {fileID: 4666300576107687346}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -66,6 +67,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a445f5aca17ba347af5d293806b52aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6361474771604391806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271639074949644529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &4335236399010817031
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +292,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d9bf5aa92c13841abb9eec36b81afd, type: 3}
---- !u!4 &1580880970940763274 stripped
+--- !u!4 &4666300576107687346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1505502165548171976, guid: 12d9bf5aa92c13841abb9eec36b81afd,
     type: 3}
